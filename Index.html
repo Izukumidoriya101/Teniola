@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Teniola Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<h2 class="logo">Teniola</h2>
+
+<div class="menu-toggle" id="menu-toggle">
+☰
+</div>
+
+<ul class="nav-links" id="nav-links">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<button id="darkMode">🌙</button>
+
+</nav>
+
+<header id="home">
+
+<img src="profile.jpg" class="profile">
+
+<h1>Hello I'm Teniola</h1>
+
+<h2><span id="typing"></span></h2>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</header>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a statistics student at the University of Abuja.  
+I enjoy working with data, programming, and building modern websites.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="card">Statistics</div>
+<div class="card">Data Analysis</div>
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">JavaScript</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<img src="project1.jpg">
+
+<h3>Chat Website</h3>
+
+<p>Real time chat website built with JavaScript.</p>
+
+</div>
+
+<div class="project">
+
+<img src="project2.jpg">
+
+<h3>Statistics Tool</h3>
+
+<p>Calculator for statistics problems.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Phone: 08033869594</p>
+<p>Email: your@email.com</p>
+
+</section>
+<section id="login">
+
+<h2>Admin Login</h2>
+
+<input type="password" id="adminPass" placeholder="Enter password">
+
+<button onclick="login()">Login</button>
+
+</section>
+
+<footer>
+  <p id="visitor"></p>
+
+<p>© 2026 Teniola Adesanya</p>
+
+</footer>
+
+<script src="script.js"></script>
+<div class="chatbot">
+
+<button id="chat-toggle">💬 Chat</button>
+
+<div class="chatbox" id="chatbox">
+
+<div id="chat-messages"></div>
+
+<input type="text" id="chat-input" placeholder="Ask something...">
+
+</div>
+
+</div>
+
+</body>
+
+</html>
